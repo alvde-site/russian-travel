@@ -4,8 +4,14 @@
   padding-top: 56px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1080px) {
   .lead {
-    max-width: 928px;
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 769px) {
+  .lead {
+    margin: 0;
   }
 }
