@@ -21,5 +21,6 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid___item.css);
+@import url(../blocks/places/places.css);
 /*footer начало */
 @import url(../blocks/footer/footer.css);
