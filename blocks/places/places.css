@@ -14,9 +14,14 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 568px) {
   .places {
     margin: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .places {
     padding: 0 0 66px;
   }
 }
