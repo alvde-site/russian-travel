@@ -7,6 +7,10 @@
   gap: 48px 40px;
 }
 
+.place:not(:last-child) {
+  padding: 0 0 80px;
+}
+
 @media (max-width: 1025px) {
   .place {
     row-gap: 32px;
@@ -17,6 +21,21 @@
   .place {
     row-gap: 28px;
   }
+
+  .place:not(:last-child) {
+    padding: 0 0 73px;
+  }
+
+  .place:not(:last-child) {
+    padding: 0 0 50px;
+  }
+}
+
+@media (max-width: 568px) {
+  .place {
+    grid-template-columns: auto;
+    grid-template-columns: auto;
+  }
 }
 
 @media (max-width: 425px) {
@@ -25,9 +44,3 @@
   }
 }
 
-@media (max-width: 425px) {
-  .place {
-    grid-template-columns: auto;
-    grid-template-columns: auto;
-  }
-}
