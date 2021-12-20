@@ -6,6 +6,8 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (max-width: 769px) {

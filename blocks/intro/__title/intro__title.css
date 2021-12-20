@@ -6,6 +6,8 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (max-width: 425px) {
