@@ -6,6 +6,12 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
+  transition: opacity 0.3s;
+}
+
+.header__lang-link:hover,
+.header__lang-link:active {
+  opacity: 0.8;
 }
 
 .header__lang-link:first-of-type {
