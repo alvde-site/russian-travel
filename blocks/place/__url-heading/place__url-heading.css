@@ -5,6 +5,8 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #aaa;
   margin: 0 0 12px;
 }
