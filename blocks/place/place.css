@@ -23,19 +23,18 @@
   }
 
   .place:not(:last-child) {
-    padding: 0 0 73px;
-  }
-
-  .place:not(:last-child) {
-    padding: 0 0 50px;
+    padding-bottom: 73px;
   }
 }
 
 @media (max-width: 568px) {
   .place {
     grid-template-columns: auto;
-    grid-template-columns: auto;
     gap: 32px 0;
+  }
+
+  .place:not(:last-child) {
+    padding-bottom: 50px;
   }
 }
 
