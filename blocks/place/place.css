@@ -35,12 +35,7 @@
   .place {
     grid-template-columns: auto;
     grid-template-columns: auto;
-  }
-}
-
-@media (max-width: 425px) {
-  .place {
-    column-gap: 32px;
+    gap: 32px 0;
   }
 }
 
